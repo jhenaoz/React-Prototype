@@ -1,0 +1,33 @@
+{
+  "name": "ReactExample",
+  "version": "1.0.0",
+  "private": true,
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "description": "react-example",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --inline -d"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "jhenaoz",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "eslint": "^2.9.0",
+    "eslint-plugin-react": "^5.1.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
