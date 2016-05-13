@@ -1,3 +1,5 @@
+var Products = require('./products');
+
 var helloComponent = React.createClass({
 
   getInitialState: function() {
@@ -50,6 +52,7 @@ var helloComponent = React.createClass({
           <h1>{this.props.name}</h1>
           {this.renderHobies()}
           {this.renderProducts()}
+          <Products products={this.state.products}></Products>
           {this.props.children}
       </div>
     );
